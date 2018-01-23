@@ -23,3 +23,19 @@ this.events = this.route.snapshot.data['events']
 ### Lazily Loading Feature
 submodule->CommonModule
 appmoeule->BrowserModule
+
+
+#### 04:40
+```
+<a
+```
+```
+{path:'user',loadChildren:'app/user/user.module#UserModule'
+```
+
+#### 04:23
+```
+<a [routerLink]="['user/profile']">
+```
+
+
