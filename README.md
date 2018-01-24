@@ -38,4 +38,15 @@ appmoeule->BrowserModule
 <a [routerLink]="['user/profile']">
 ```
 
+### Ahead of Time Compiler
+AOT Benefits:
+- Fast rendering
+- Fewer Requests
+- Smaller Angular Framework Download
+- Detect Template Errors
+- Better Security
+
+Compilers:
+- Development: Just in time compiler
+- Production: Ahead of time Compiler
 
