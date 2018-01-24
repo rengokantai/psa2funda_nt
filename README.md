@@ -50,3 +50,11 @@ Compilers:
 - Development: Just in time compiler
 - Production: Ahead of time Compiler
 
+need to change to get aot work
+```
+declare let toastr: Toastr; -> let toastr:Toastr = window['toastr'];
+```
+```
+newForm.controls.name?.invalid->newForm.form.ge('name')?.invalid
+newForm.controls.firstName.errors.pattern->newForm.get('firstName').hasError('pattern')
+```
