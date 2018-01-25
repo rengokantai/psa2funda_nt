@@ -20,6 +20,17 @@ this.events = this.route.snapshot.data['events']
 <a [routerLink]="['/event']" routerLinkActtive="cls">
 ```
 
+## 8. Communicating Between Components
+
+### 2
+```
+[session]="event.sessions"]
+```
+I want to bind session propery of child component to session array of event object.
+
+
+
+
 ### Lazily Loading Feature
 submodule->CommonModule
 appmoeule->BrowserModule
