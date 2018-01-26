@@ -20,6 +20,16 @@ this.events = this.route.snapshot.data['events']
 <a [routerLink]="['/event']" routerLinkActtive="cls">
 ```
 
+## 7.
+### Creating Custom Validators
+#### 05:09
+```
+private restrictedWords(words){
+  return (control:FormControl):{[key:string]:any}=>{
+  }
+}
+```
+
 ## 8. Communicating Between Components
 
 ### 2
