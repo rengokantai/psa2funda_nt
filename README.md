@@ -76,6 +76,11 @@ need to change to get aot work
 declare let toastr: Toastr; -> let toastr:Toastr = window['toastr'];
 ```
 ```
-newForm.controls.name?.invalid->newForm.form.ge('name')?.invalid
+newForm.controls.name?.invalid->newForm.form.get('name')?.invalid
 newForm.controls.firstName.errors.pattern->newForm.get('firstName').hasError('pattern')
 ```
+
+
+## 14
+### Moving
+neither get map function will make a http call until sombody subscribe to the observable function
